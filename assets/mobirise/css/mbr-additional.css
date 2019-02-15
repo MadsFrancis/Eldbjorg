@@ -902,6 +902,9 @@ h6,
   #header1-1 .main_pic {
     background-attachment: scroll;
   }
+  #header1-1 .main_pic .Infobox {
+    font-size: 3vh;
+  }
 }
 @media (max-width: 720px) {
   #header1-1 .main_pic {
