@@ -1,0 +1,799 @@
+{
+  "settings": {
+    "name": "Nortall",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#090000",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#090000"
+      ]
+    },
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "versionFirst": "3.11.1",
+    "uniqCompNum": 110,
+    "versionPublish": "4.3.4",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "Tjenester.html": {
+      "settings": {
+        "title": "Tjenester.html",
+        "meta_descr": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "order": 2,
+        "footer_custom": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#153159"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#1c4076!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#1f4782"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_customCSS": "@media screen and (max-width: 600px) {\n  .nav-item a:not(:first-child) {display: none;}\n  .nav-item a.link {\n    float: right;\n    display: block;\n  }\n}\n\n.navbar-logo{\n    width: 250px;\n    border: 1px solid black;\n}\n\n.navbar-logo img{\n    width: 100%;\n    height: auto;\n    border: 1px solid;\n}\n\n.navbar-caption{\n    letter-spacing: 2px;\n}\n\n.bg-color.transparent .navbar-caption {\n\tcolor: #2e2e2e;\n\ttransition: none;\n}\n\n.bg-color.transparent .link {\n\tcolor: white;\n\ttransition: none;\n}\n\n.nav-item{\n    letter-spacing: 1px;\n}\n\n.link:hover{\n\tcolor: yellow;\n    opacity: 0.8;\n    text-decoration: underline;\n    \n}\n\n.link{\n    font-weight:normal;\n    \n}\n\n.link, .dropdown-item {\n\tcolor: white;\n}\n\n.dropdown-item {\n\tcolor: white;\n}\n\n.bg-color.transparent .hamburger-icon{\n    color: #2e2e2e;\n}\n\n.hamburger-icon{\n    color: white;\n}\n",
+          "_anchor": "menu-1t",
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#1f4782",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-405x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">EKSPROPRIASJONSADVOKATEN</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HJEM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-6\">TJENESTER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-1i\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "SMALL": {
+              "font-size": "18px",
+              "color": "#000000",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            },
+            "SPAN": {
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_customCSS": ".mbr-section-title{\n    margin: auto;\n    min-height: 65px;\n    border-bottom: 1px solid;\n    max-width: 1000px;\n    font-family: Copperplate Gothic Light;\n}\n\n.mbr-section-subtitle{\n    margin: auto;\n    max-width: 900px;\n    line-height: 30px;\n}\n",
+          "_anchor": "header3-1u",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "7",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "title": "Regnskap, rapportering <br>og årsrapport<br>",
+          "meta": "<br><span style=\"font-style: normal;\"><span style=\"font-size: 18px;\">Nortall tilbyr automatiserte prosesser for dokumentflyt, det vil si elektronisk mottak av bilag, godkjenning og betaling,&nbsp;</span>samt skybasert rapportering. Våre kunder velger hvilke selvbetjeningsløsninger de vil ha og med vår rapporteringsløsning på web kan du som kunde om ønskelig se alle detaljer i regnskapet. <br>Det er imidlertid vi som fører regnskapet, det vil si sikrer riktig kontering med hensyn til mva- og skattefradrag.<br><br>Nortall utarbeider skattemelding og årsregnskap, vi bistår med alle dokumenter og rapportering til myndighetene i forbindelse med årsavslutningen.<br><br>I tillegg til de tradisjonelle regnskapstjenestene tilbyr vi rådgivning innenfor økonomi og administrasjon.</span><br>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "SMALL": {
+              "font-size": "18px",
+              "color": "#000000",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            },
+            "SPAN": {
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_customCSS": ".mbr-section-title{\n    margin: auto;\n    min-height: 65px;\n    border-bottom: 1px solid;\n    max-width: 1000px;\n    font-family: Copperplate Gothic Light;\n}\n\n.mbr-section-subtitle{\n    margin: auto;\n    max-width: 900px;\n    line-height: 30px;\n}\n",
+          "_anchor": "header3-1v",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "7",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "title": "Lønn og reiseregning",
+          "meta": "<br><span style=\"font-style: normal;\"><span style=\"font-size: 18px;\">Nortall tilbyr elektronisk reiseregning som kan benyttes av alle eller et utvalg av ansatte hos kunden, på mobil, nettbrett, pc og mac. Systemet er til enhver tid oppdatert med gjeldende regelverk og enkelt i bruk. Man kan starte med reiseregningen når reisen begynner ved å ta bilde av kvitteringer, knytte opp kvitteringer fra mail, og avslutte ved å sende til godkjenning når man kommer hjem. Dette systemet kan også benyttes løpende i forbindelse med ansattes utlegg.</span><br><br>I tillegg til de tradisjonelle lønnsrelaterte tjenestene tilbyr vi rådgivning innenfor personal og administrasjon.</span><br>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "SMALL": {
+              "font-size": "18px",
+              "color": "#000000",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_customCSS": ".mbr-section-title{\n    margin: auto;\n    min-height: 65px;\n    border-bottom: 1px solid;\n    max-width: 1000px;\n    font-family: Copperplate Gothic Light;\n}\n\n.mbr-section-subtitle{\n    margin: auto;\n    max-width: 800px;\n    line-height: 30px;\n}\n",
+          "_anchor": "header3-1x",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "7",
+            "paddingBottom": "7",
+            "bgColor": "#ffffff"
+          },
+          "title": "Fakturering",
+          "meta": "<br><span style=\"font-style: normal;\">Nortall tilbyr faktureringsløsning på web der du som kunde og vi kan jobbe i samtidig. Våre kunder kan registrere nye kunder og starte fakturering for deretter å overlate oppgaven til oss eller fullføre selv. Fakturaprogrammet er integrert med regnskapet og våre kunder kan følge med på om fakturaene er gjort opp.</span><br>"
+        }
+      ]
+    },
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "index.html",
+        "meta_descr": "",
+        "header_custom": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_customCSS": "\n@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);\n.main_pic{\n    \n    background: url(\"@PROJECT_PATH@/assets/images/forsidebilde.jpg\");\n    \n    \n    background-attachment: fixed;\n    background-repeat: no-repeat;\n    background-position: center center;\n    background-size: 100%;\n  \n    -o-background-size: 100%;\n    -moz-background-size: 100%;\n    -webkit-background-size: 100%;\n    \n    @media (max-width: 480px) {\n        background-attachment: scroll;\n    }\n    \n        @media (max-width: 720px) {\n        background-attachment: scroll;\n    }\n\n}\n\n@media only screen and (max-device-width : 1024px){\n    .main_pic{\n    \n    background: url(\"@PROJECT_PATH@/assets/images/forsidebilde.jpg\");\n    \n    \n    background-attachment: scroll;\n    background-repeat: no-repeat;\n    background-position: center center;\n    background-size: cover;\n    \n    -o-background-size: cover;\n    -moz-background-size: cover;\n    -webkit-background-size: cover;\n\n}\n}\n\n\n\n.mbr-section-title {\n\tfont-family: 'Raleway', sans-serif;\n\tcolor: #1f4782;\n}\n\n.mbr-section-lead {\n\tcolor: #1f4782;\n}\n\n.mbr-section-lead{\n    margin: auto;\n    min-height: 40px;\n    border-bottom: 1px solid;\n    max-width: 450px;\n    \n}\n\n.mbr-section-lead{\n    font-family: Copperplate Gothic bold;\n}\n\n.mbr-section-title{\n    font-family: Copperplate Gothic Bold;\n    \n}\n\n.Infobox{\n    margin: auto;\n    font-size: 2vw;\n    float: right;\n    margin-bottom: 0;\n    padding-bottom: 0;\n    position: absolute;\n   bottom: 7%;\n   right: 9%;\n}\n\n.Infotext{\n    color: white;\n    font-family: Copperplate Gothic bold;\n}\n\n",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/open-bok-2000x1332.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#2b0680",
+            "overlayOpacity": "0"
+          },
+          "title": "<span style=\"font-weight: normal;\">NORTALL AS</span>",
+          "text": "<span style=\"font-style: normal;\">AUTORISERT REGNSKAPSBYRÅ</span>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_customHTML": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<section class=\"mbr-section-hero mbr-section-full  mbr-after-navbar main_pic\" style=\"position:relative; margin:auto;\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">    \n    <!----------- mbr-section \n----------->\n\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0; background-color: rgb(43, 6, 128);\"></div>\n\n    <div class=\"mbr-table-cell\">\n           \n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"mbr-section col-md-10 col-md-offset-1 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"256\"><span style=\"font-weight: normal; font-size: 100%;\">N<span style=\" font-size: 85%;\">ORTALL</span> AS</span></h1>\n                    <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"257\"><span style=\"font-style: normal;\">A<span style=\" font-size: 85%;\">UTORISERT REGNSKAPSBYRÅ</span></span></p>\n                    \n                </div>\n            </div>\n\n        </div>\n        <div class=\"Infobox\">\n                   <p class=\"Infotext\">Vi har flyttet til Storgata 2</p> \n        </div>\n    </div>\n\n    \n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "header1-1"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);\nP {\n  text-align: center;\n  font-size: 20px;\n  font-family: 'PT Serif', serif;\n  color: #000000;\n}\n",
+          "_anchor": "content1-d",
+          "_params": {
+            "paddingTop": "7",
+            "paddingBottom": "0",
+            "bgColor": "#efefef"
+          },
+          "text": "<p>Nortall AS er et autorisert regnskapsbyrå. Vi er et byrå med seks ansatte som satser på personlig service. A<span style=\"line-height: 1.5;\">lle våre kunder har fast kontaktperson. Daglig leder og eier er Eldbjørg Løken Kjølstad.</span></p><p><br></p><p>De ansatte i Nortall har bred erfaring fra regnskap, administrasjon og ledelse i små og mellomstore bedrifter. </p><p>Vi forstår hva kundene trenger av bistand, avlaster daglig leder med økonomiske og administrative oppgaver, </p><p>og oppdaterer oss kontinuerlig i forhold til lover og regler. </p><p>Som kunde hos oss har du tilgang på god kompetanse innenfor økonomi, personal og administrasjon.</p><p><br></p><p>Nortall er et autorisert regnskapsførerselskap og medlem av Regnskap Norge.</p><p><br></p>",
+          "_customHTML": "<section class=\"mbr-section article mbr-section__container\" data-rv-view=\"1\" style=\"background-color: rgb(239, 239, 239); padding-top: 140px; padding-bottom: 0px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12 lead mbr-editable-full\" code-editable-id=\"16\"><p>Nortall AS er et autorisert regnskapsbyrå. Vi er et byrå med seks ansatte som satser på personlig service. A<span style=\"line-height: 1.5;\">lle våre kunder har fast kontaktperson. Daglig leder og eier er Eldbjørg Løken Kjølstad.</span></p><p><br></p><p>De ansatte i Nortall har bred erfaring fra regnskap, administrasjon og ledelse i små og mellomstore bedrifter. </p><p>Vi forstår hva kundene trenger av bistand, avlaster daglig leder med økonomiske og administrative oppgaver, </p><p>og oppdaterer oss kontinuerlig i forhold til lover og regler. </p><p>Som kunde hos oss har du tilgang på god kompetanse innenfor økonomi, personal og administrasjon.</p><p><br></p><p>Nortall er et autorisert regnskapsførerselskap og medlem av Regnskap Norge.</p><p><br></p></div>\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "showImage": true,
+            "showTitle": false,
+            "showText": false,
+            "showForm": false,
+            "showArrow": false,
+            "imageSize": "20",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extHeader16_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
+          },
+          "title": "HEADER WITH IMAGE",
+          "text": "Full-screen intro with image at the top. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SUBSCRIBE</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extMsg-box3.jpg"
+            },
+            "video": {
+              "active": false,
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "form": {
+            "action": "madsfrancis.kjeldsberg@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email"
+              }
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extHeader16",
+          "_anchor": "extHeader16-2x",
+          "_customCSS": ".mbr-section-full{\n    height: 300px;\n}",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full extHeader16\" data-rv-view=\"96\" style=\"background-color: rgb(239, 239, 239);\">\n\n    \n        <div class=\"mbr-table-cell\">\n            <div class=\"container\">\n\n                    <div id=\"title\">\n                        <div class=\"mbr-figure image-size\" style=\"width: 20%; font-size: 50px;\"><img src=\"@PROJECT_PATH@/assets/images/rn-logo.png\"></div>\n                        <div class=\"mbr-table-cell col-md-6 text-xs-center text-md-left\">\n\n                            \n\n                            <div class=\"mbr-section-text lead\">\n                                \n                            </div>\n                        </div>\n\n                    </div>\n                    \n \n            </div> \n        </div> \n                     \n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "5",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "file:///C:/Users/madsf/AppData/Local/Mobirise.com/Mobirise/projectData/calc-grey-2000x1323_2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.6"
+          },
+          "title": "",
+          "text": "<p>Article header with background image and parallax effect.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_customHTML": "<section class=\" mbr-section parallax\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.4; background-color: rgb(34, 34, 34);\">\n    </div>\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"20\">                    </h3>\n\n\n                </div>\n            </div>\n        </div>\n\n</section>",
+          "_customCSS": ".mbr-section-title, p {\n\tcolor: #fff;\n}\n.mbr-section-title {\n\tcolor: #ffffff;\n}\n\n\n\n.parallax {\n    /* The image used */\n    background-image: url(\"@PROJECT_PATH@/assets/images/calculator-385506-2000x1178.jpg\");\n\n    /* Set a specific height */\n    height: 400px; \n\n    /* Create the parallax scrolling effect */\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: 100% 100%;\n    \n    -o-background-size: 100%;\n    -moz-background-size: 100%;\n    -webkit-background-size: 100%;\n    \n    @media (max-width: 1024px) {\n        background-attachment: scroll;\n    }\n}\n",
+          "_customTemplate": true,
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "msg-box8-1l"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "SMALL": {
+              "font-size": "18px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_customCSS": ".mbr-section-title{\n    margin: auto;\n    min-height: 65px;\n    border-bottom: 1px solid;\n    max-width: 500px;\n    font-family: Copperplate Gothic Light;\n}\n\n",
+          "_anchor": "header3-6",
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "6",
+            "paddingBottom": "7",
+            "bgColor": "#efefef"
+          },
+          "title": "Våre tjenester<br>",
+          "meta": "<br>Vi tilbyr tjenester innen følgende fagområder"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
+                "caption": "Type caption here"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "allItem": "All",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_customHTML": "\n\n<section class=\"Galleri\">\n                               \n                                <!-------rad 1-------->\n    <div class=\"Rad\">\n        <div class=\"Container\" style=\"background-color:black;\">  \n            <a href=\"Tjenester.html#header3-1u\">\n            <img src=\"@PROJECT_PATH@/assets/images/forside.jpeg\" style=\"opacity:0.7;\"> \n                <div class=\"text\">Regnskap, rapportering og årsrapport\n                </div>\n                <div class=\"overlay\">\n                    <div class=\"text\">Regnskap, rapportering og årsrapport\n                    </div>\n                </div>\n            </a>\n\n</div>\n        <div class=\"Container\">  \n        <a href=\"Tjenester.html#header3-1v\">\n            <img src=\"@PROJECT_PATH@/assets/images/man-plane.jpg\" width=\"300\" height=\"200\">\n                        <div class=\"text\">Lønn og reiseregning\n        </div>\n                  <div class=\"overlay\">\n                        <div class=\"text\">Lønn og reiseregning\n        </div>\n      </div>\n        </a>\n\n</div>        \n          \n        <div class=\"Container\">  \n                <a href=\"Tjenester.html#header3-1x\">\n                <img src=\"@PROJECT_PATH@/assets/images/outside.jpg\" width=\"300\" height=\"200\">\n                    <div class=\"text\">Fakturering\n                    </div>\n                    \n                    <div class=\"overlay\">\n                        <div class=\"text\">Fakturering\n                        </div>\n                    </div>\n                </a>\n            </div>      \n    </div>\n                                <!-------rad 2-------->\n\n</section>",
+          "_customCSS": "section.Galleri{\n    height: 350px;\n}\n\ndiv.Rad{\n    height : 100%;\n}\n\ndiv.Container {\n    position: relative;\n    margin: 0px;\n    float: left;\n    width: 33.333%;\n    height: 100%;\n    text-align: center;\n}\n\ndiv.Container img {\n    width: 100%;\n    height: 100%;\n    position: relative ;\n    \n}\n\n.overlay {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  height: 100%;\n  width: 100%;\n  opacity: 0;\n  transition: .3s ease;\n  background-color: grey;\n\n}\n\n.Container:hover .overlay{\n  opacity: 0.8;\n\n}\n\n.Container:hover .text{\n    color: #1f4782;\n    opacity: 1;\n    transition: .5s ease;\n}\n\ndiv.text {\n    color: white;\n    \n    font-weight: 700;\n    font-family: Copperplate Gothic bold;\n    position: absolute;\n    text-decoration: underline;\n    top: 50%;\n    left: 50%;\n    width: 100%;\n    transform: translate(-50%, -50%);\n    -ms-transform: translate(-50%, -50%);\n    opacity: 1;\n    font-size: 150%;\n    \n\n}\n",
+          "_customTemplate": true,
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "gallery1-7"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "SMALL": {
+              "font-size": "20px",
+              "color": "#000000",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_customCSS": ".mbr-section-title{\n    margin: auto;\n    min-height: 65px;\n    border-bottom: 1px solid;\n    max-width: 500px;\n    font-family: Copperplate Gothic Light;\n    \n}\n.mbr-section-subtitle{\n    line-height: 1.5;\n}\n\n\n",
+          "_anchor": "header3-k",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "7",
+            "paddingBottom": "7",
+            "bgColor": "#efefef"
+          },
+          "title": "Rådgivning<br>",
+          "meta": "<br><span style=\"font-style: normal;\">Nortall tilbyr rådgivning. Vi kan bistå i forbindelse med bedriftens utviklingsprosjekt, ved strukturelle endringer <br>og ved etablering av administrative rutiner, eller rett og slett som en samtalepartner for ledelsen. <br>Vi kan gi gode, økonomiske og praktiske innspill i mange prosesser ved å kombinere erfaring og praktisk tilnærming,<br>samtidig som vi ivaretar myndighetskrav.</span>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "5",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "file:///C:/Users/madsf/AppData/Local/Mobirise.com/Mobirise/projectData/calc-grey-2000x1323_1.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.6"
+          },
+          "title": "",
+          "text": "<p>Article header with background image and parallax effect.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_customHTML": "<section class=\" mbr-section parallax\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0; background-color: black;\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"24\"></h3>\n                \n                \n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customCSS": ".mbr-section-title, p {\n\tcolor: #fff;\n}\n.mbr-section-title {\n\tcolor: #ffffff;\n}\n\n\n\n.parallax {\n    /* The image used */\n    background-image: url(\"@PROJECT_PATH@/assets/images/hender.jpg\");\n    \n\n    /* Set a specific height */\n    min-height: 400px; \n    \n    max-width: 100%;\n\n    /* Create the parallax scrolling effect */\n    background-attachment: fixed;\n    background-position: center center;\n    background-repeat: no-repeat;\n    background-size: 100% 100%;\n    \n        -o-background-size: 100% 100%;\n    -moz-background-size: 100% 100%;\n    -webkit-background-size: 100% 100%;\n    \n    @media (max-width: 1024px) {\n        background-attachment: scroll;\n    }\n}\n",
+          "_customTemplate": true,
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "msg-box8-1n"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_customCSS": "",
+          "_anchor": "header3-1i",
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "bgColor": "#efefef"
+          },
+          "title": "",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#153159"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#1c4076!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#1f4782"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#090000!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_customCSS": "@media screen and (max-width: 600px) {\n  .nav-item a:not(:first-child) {display: none;}\n  .nav-item a.link {\n    float: right;\n    display: block;\n  }\n}\n\n.navbar-logo{\n    width: 250px;\n    border: 1px solid black;\n}\n\n.navbar-logo img{\n    width: 100%;\n    height: auto;\n    border: 1px solid;\n}\n\n.navbar-caption{\n    letter-spacing: 2px;\n}\n\n.bg-color.transparent .navbar-caption {\n\tcolor: #2e2e2e;\n\ttransition: none;\n}\n\n.bg-color.transparent .link {\n\tcolor: white;\n\ttransition: none;\n    \n}\n\n.bg-color.transparent .link:hover {\n\tcolor: yellow;\n\ttransition: ease-in 0.4s;\n    text-decoration: underline;\n}\n\n.nav-item{\n    letter-spacing: 1px;\n}\n\n.link:hover{\n\tcolor: yellow;\n    text-decoration: underline;\n    \n    \n}\n\n.link{\n    font-weight:normal;\n    \n}\n\n.nav-link:active{\n    color: red;\n    background-color: transparent;\n    text-decoration: underline;\n}\n\n.a:active{\n    color: red;\n    background-color: transparent;\n    text-decoration: underline;\n}\n\n\n.link, .dropdown-item {\n\tcolor: white;\n}\n\n.dropdown-item {\n\tcolor: white;\n}\n\n.bg-color.transparent .hamburger-icon{\n    color: #2e2e2e;\n}\n\n.hamburger-icon{\n    color: white;\n}\n",
+          "_anchor": "menu-3",
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#1f4782",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-405x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html#top",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">EKSPROPRIASJONSADVOKATEN</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HJEM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-6\">TJENESTER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-1i\">KONTAKT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showContacts": true,
+            "showSubtitle": false,
+            "showText": true,
+            "showForm": true,
+            "inverse": false,
+            "googleMap": {
+              "address": "Storgata 2, 0155 oslo",
+              "placeId": "ChIJU_P4bWJuQUYRW9Q51jwJ9xY",
+              "state": "ok",
+              "stateDetails": ""
+            },
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extForm1_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "Kontaktskjema",
+          "title1": "",
+          "title2": "Visit our office",
+          "subTitle1": "Ready for offers &amp; cooperation",
+          "subTitle2": "Glad to meet new people",
+          "text1": "Telefon: 22 00 88 90\n<br>Mobil: 93 16 02 02\n<br>Storgata 2 | 0155 Oslo | Norge",
+          "text2": "1234 Street Name </br> City AA 99999",
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND</a>",
+          "form": {
+            "action": "post@nortall.no",
+            "alerts": {
+              "success": "Din melding har blitt sendt!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Navn*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telefon*"
+              },
+              "message": {
+                "visible": true,
+                "title": "Message",
+                "customTitle": "Melding"
+              }
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extForm4",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i"
+            },
+            ".btn": {
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i"
+            }
+          },
+          "_customCSS": "H2 {\n\tcolor: #000000;\n    font-family: Copperplate Gothic Light;\n}",
+          "_anchor": "extForm4-2y"
+        }
+      ]
+    }
+  }
+}
